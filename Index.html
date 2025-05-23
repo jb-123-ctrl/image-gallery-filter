@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery with Filter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Image Gallery</h1>
+
+  <div class="filter-buttons">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('people')">People</button>
+    <button onclick="filterImages('tech')">Tech</button>
+  </div>
+
+  <div class="gallery">
+    <img src="https://via.placeholder.com/200x150?text=Nature+1" class="image nature" alt="Nature 1" />
+    <img src="https://via.placeholder.com/200x150?text=Nature+2" class="image nature" alt="Nature 2" />
+    <img src="https://via.placeholder.com/200x150?text=People+1" class="image people" alt="People 1" />
+    <img src="https://via.placeholder.com/200x150?text=People+2" class="image people" alt="People 2" />
+    <img src="https://via.placeholder.com/200x150?text=Tech+1" class="image tech" alt="Tech 1" />
+    <img src="https://via.placeholder.com/200x150?text=Tech+2" class="image tech" alt="Tech 2" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
